@@ -1,4 +1,5 @@
 import { useState, useRef } from 'react'
+import DynamicGif from './Giphy'
 import './App.css'
 
 function App() {
@@ -30,6 +31,10 @@ function App() {
   return (
     <>
 
+    <div>
+      <h4>Dynamic GIF Example</h4>
+      <DynamicGif />
+    </div>
 
       <video
         ref={videoRef}
